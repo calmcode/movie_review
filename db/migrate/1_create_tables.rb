@@ -15,13 +15,10 @@ class CreateTables < ActiveRecord::Migration
       t.integer :run_time
       t.string :genre
       t.string :rated
-      t.string :cast
-      t.text :synopsis
       t.timestamps
     end
 
     create_table :reviews do |t|
-      t.string :reviewer
       t.integer :grading
       t.text :review
       t.timestamps
