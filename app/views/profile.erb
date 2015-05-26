@@ -1,0 +1,49 @@
+  <body class="container">
+
+    <div class="row">
+      <h1 class="col-xs-offset-3 col-xs-6">My Profile</h1>
+      <p class="col-xs-offset-3 col-xs-6">Remember to press "Update" after you finish updating your profile!</p>
+    </div>
+
+    <div class="row">
+
+      <form class="col-xs-offset-3 col-xs-6" method="POST" action="/profile/edit">
+
+        <div class="row">
+          <label class="col-xs-4" for="first_name"> First Name </label>
+          <input type="text" class="col-xs-offset-1 col-xs-6" name="firstname" placeholder="Enter new name" id="first_name">
+        </div>
+        <br/>
+
+        <div class="row">
+          <label class="col-xs-4" for="last_name"> Last Name </label>
+          <input type="text" class="col-xs-offset-1 col-xs-6" name="lastname" placeholder="Enter new name" id="last_name">
+        </div>
+        <br/>
+
+        <div class="row">
+          <label class="col-xs-4" for="email"> Email </label>
+          <input type="email" class="col-xs-offset-1 col-xs-6" name="email" placeholder="Enter new email" id="email">
+        </div>
+        <br/>
+
+        <div class="row">
+          <label class="col-xs-4" for="password"> Password </label>
+          <input type="password" class="col-xs-offset-1 col-xs-6" name="password" placeholder="Enter new password" id="password">
+        </div>
+        <br/>
+
+        <div class="row">
+          <label class="col-xs-5" for="gender"> Gender </label>
+          <input type="radio" class="col-xs-1" name="gender" id="gender"> <span class="col-xs-6"> Male </span>
+          <input type="radio" class="col-xs-1" name="gender" id="gender"> <span class="col-xs-6"> Female </span>
+        </div>
+        <br/>
+
+        <button type="submit" id="submit_button"> Update </button>
+
+      </form>
+    
+    </div>
+
+  </body>

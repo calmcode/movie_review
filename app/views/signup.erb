@@ -1,0 +1,88 @@
+<body class="container">
+  
+    <div class="row">
+      <h1 class="col-xs-offset-3 col-xs-6">Sign up!</h1>
+      <p class="col-xs-offset-3 col-xs-6">By signing up, you will be able to access all the premium features of this website.</p>
+    </div>
+    
+    <div class="row">
+
+      <form class="col-xs-offset-3 col-xs-6" method="POST" action="/signup">
+          
+          <div class="row">
+            <label class="col-xs-4"> First Name </label>
+            <input type="text" class="col-xs-offset-1 col-xs-6" name="firstname" placeholder="Type name" tabindex="1">
+          </div>
+          <br/>
+
+          <div class="row">
+            <label class="col-xs-4"> Last Name </label>
+            <input type="text" class="col-xs-offset-1 col-xs-6" name="lastname" placeholder="Type name" tabindex="2">
+          </div>
+          <br/>
+
+          <div class="row">
+            <label class="col-xs-4"> Username </label>
+            <input type="text" class="col-xs-offset-1 col-xs-6" name="username" placeholder="Type username" tabindex="3">
+          </div>
+          <br/>
+
+          <div class="row">   
+            <label class="col-xs-4"> Password </label>
+            <input type="password" class="col-xs-offset-1 col-xs-6" name="password" placeholder="Type password" tabindex="4">
+          </div>
+          <br/>
+
+          <div class="row">
+            <label class="col-xs-4"> Email </label>
+            <input type="text" class="col-xs-offset-1 col-xs-6" name="email" placeholder="Type email" tabindex="5">
+          </div>
+          <br/>
+
+          <div class="row">
+            <label class="col-xs-4"> Phone Number </label> 
+            <input type="tel" class="col-xs-offset-1 col-xs-6" name="tel" placeholder="Type phone number" tabindex="6">
+          </div>
+          <br/>
+
+          <div class="row">
+            <label class="col-xs-5"> Gender </label>
+            <input type="radio" class="col-xs-1" name="gender" tabindex="7"> <span class="col-xs-6"> Male </span>
+            <input type="radio" class="col-xs-1" name="gender" tabindex="8"> <span class="col-xs-6"> Female </span>
+          </div>
+          <br/>
+
+
+          <div class="row">
+            <label class="col-xs-4"> Age </label>
+            <select class="col-xs-offset-1 col-xs-6" tabindex="9">
+              <option value="1"> under 10 </option>
+              <option value="2"> 10-19 </option>
+              <option value="3"> 20-29 </option>
+              <option value="4"> 30-39 </option>
+              <option value="5"> 40-49 </option>
+              <option value="6"> 50 and above </option>
+            </select>
+          </div>
+          <br/>
+          <br/>
+
+          <div class="row">
+            <textarea name="comments" class="col-xs-10 col-xs-offset-1" rows="7" cols="40" tabindex="10"> Please enter any additional information here:
+            </textarea> 
+          </div>
+          <br/>
+
+          <div class="row">
+            <input type="checkbox" class="col-xs-2" value=true tabindex="11"> I have read and agree to the following <a href="http://www.colorpicker.com/"> terms </a>
+          </div>
+          <br/>
+
+          <button type="submit" id="submit_button" tabindex="12"> Sign Up! </button>
+          
+
+      </form>
+
+    </div>
+
+  </body>
