@@ -1,0 +1,71 @@
+body {
+    background-color: #E6E345;
+}
+
+h1 {
+    text-align: left;
+}
+
+
+p {
+    font-size: 1.5em;
+    color: #E612A6;
+}
+
+form {
+    background-color: #A8E3E0;
+    font-family: Times;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+   
+}
+
+input:hover {
+    background-color: #F0DEC7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+
+textarea {
+    color: black;
+    font-size: 1em;
+    font-family: Times;
+
+}
+
+#submit_button {
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    border-radius: 20%;
+    color: white;
+    background-color: #4D69D6;
+    border: 6px ridge;
+    border-color: white;
+    position: relative;
+    margin-left: 35%
+}
+
+#submit_button:hover {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 32%;
+    border-radius: 20%;
+    color: #B5AC26;
+    background-color: #4D69D6;
+    border: 6px ridge;
+    border-color: white;
+    position: relative;
+    margin-left: 34%
+}
